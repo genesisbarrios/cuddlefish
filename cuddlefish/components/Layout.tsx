@@ -72,12 +72,12 @@ type LayoutProps = {
       padding: '8px 12px',
       borderRadius: theme.radius.sm,
       textDecoration: 'none',
-      color: theme.colorScheme === 'light' ? theme.colors.gray[0] : theme.colors.gray[7],
+      color: theme.colorScheme === 'dark' ? theme.colors.gray[0] : theme.colors.gray[7],
       fontSize: theme.fontSizes.sm,
       fontWeight: 500,
   
       '&:hover': {
-        backgroundColor: theme.colorScheme === 'light' ? theme.colors.gray[6] : theme.colors.gray[0],
+        backgroundColor: theme.colorScheme === 'dark' ? theme.colors.gray[6] : theme.colors.gray[0],
       },
     },
   
@@ -171,7 +171,6 @@ export default function Layout({ children }: LayoutProps) {
                 </Container>
             </Header>
             <div>{children}</div>
-           
             <div className={classes.footer} id="footer">
               <Container className={classes.footerinner}>
               <Link href="#">

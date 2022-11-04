@@ -47,19 +47,19 @@ const Home: NextPage = () => {
                 <Grid.Col span={4}>
                 <div className={styles.textSection}>
                     <Image src="/marketing.png" height={300} width={200}></Image>
-                    <p className={styles.paragraphs}>Quick, easy setup for marketing teams.</p>
+                    <h4 className={styles.paragraphs}>Quick, easy setup for marketing teams.</h4>
                 </div>
                 </Grid.Col>
                 <Grid.Col span={4}>
                 <div className={styles.textSection}>
                     <Image src="/notification.png" height={300} width={300}></Image>
-                    <p className={styles.paragraphs}>End user donation notifications help companies build a sustainable image the moment a new visitor arrives.</p>
+                    <h4 className={styles.paragraphs}>End user donation notifications help companies build a sustainable image the moment a new visitor arrives.</h4>
                 </div>
                 </Grid.Col>
                 <Grid.Col span={4}>
                 <div className={styles.textSection}>
                     <Image src="/watering.png" height={300} width={300}></Image>
-                    <p className={styles.paragraphs}>Donating per page view allows teams to easily calculate and offset donation expenses based on their existing Pay-Per-Click and Cost-Per-Visit calculations.</p>
+                    <h4 className={styles.paragraphs}>Donating per page view allows teams to easily calculate and offset donation expenses based on their existing Pay-Per-Click and Cost-Per-Visit calculations.</h4>
                 </div>
                 </Grid.Col>
               </Grid>
