@@ -95,7 +95,7 @@ type LayoutProps = {
     links: { link: string; label: string; links: { link: string; label: string }[] }[];
   }
 
-  const links = [{ link: "http://www.cuddlefish.com/#About", label: "About", links:null}, {link:"http://www.cuddlefish.com/#", label:"Create" , links:null}, {link:"http://www.cuddlefish.com/#footer", label:"Contact Us", links:null}];
+  const links = [{ link: "/#About", label: "About", links:null}, {link:"#footer", label:"Contact Us", links:null}];
 
 export default function Layout({ children }: LayoutProps) {
 
