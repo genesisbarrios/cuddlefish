@@ -326,6 +326,10 @@ background: linear-gradient(to bottom right, #BAEAFF, #33308C);
   width:"50px"
 }
 
+.FollowButton{
+ margin-left:35%;
+}
+
 
 @media (max-width: 600px) {
 
@@ -370,8 +374,17 @@ background: linear-gradient(to bottom right, #BAEAFF, #33308C);
     letter-spacing: 0.05em;
     margin-top:0;
   }
+  .textSection{
+    width:90%;
+  }
 
   .margintops{
     margin-top:55%;
   }
+
+
+.FollowButton{
+  margin-left:40%;
+ }
+ 
 }

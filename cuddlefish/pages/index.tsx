@@ -46,27 +46,32 @@ const Home: NextPage = () => {
               <Grid>
                 <Grid.Col lg={4} sm={12}>
                 <div className={styles.textSection}>
-                    <Image src="/marketing.png" height={300} width={200}></Image>
+                    <Image src="/marketing.png" height={400} width={400}></Image>
                     <h4 className={styles.paragraphs}>Quick, easy setup for marketing teams.</h4>
                 </div>
                 </Grid.Col>
                 <Grid.Col lg={4} sm={12}>
                 <div className={styles.textSection}>
-                    <Image src="/notification.png" height={300} width={300}></Image>
+                    <Image src="/notification.png" height={400} width={400}></Image>
                     <h4 className={styles.paragraphs}>End user donation notifications help companies build a sustainable image the moment a new visitor arrives.</h4>
                 </div>
                 </Grid.Col>
                 <Grid.Col lg={4} sm={12}>
                 <div className={styles.textSection}>
-                    <Image src="/watering.png" height={300} width={300}></Image>
+                    <Image src="/watering.png" height={400} width={400}></Image>
                     <h4 className={styles.paragraphs}>Donating per page view allows teams to easily calculate and offset donation expenses based on their existing Pay-Per-Click and Cost-Per-Visit calculations.</h4>
                 </div>
                 </Grid.Col>
               </Grid>
           </div>
       </section>
-      <Link href='/#'><Button style={{backgroundColor:"#E88ACF", marginLeft:"45%", marginTop:"5%"}}>Follow Us</Button></Link>
-  
+      <Grid>
+        <Grid.Col lg={5}></Grid.Col>
+        <Grid.Col lg={2}>
+            <div className={styles.FollowButton}><Link href='/#'><Button style={{backgroundColor:"#E88ACF", marginTop:"5%"}} >Follow Us</Button></Link></div>
+        </Grid.Col>
+        <Grid.Col lg={5}></Grid.Col>
+      </Grid>
   </div>
   )
 }
