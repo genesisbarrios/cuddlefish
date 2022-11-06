@@ -30,12 +30,12 @@ const Home: NextPage = () => {
       <section id="About" className={styles.about}>
           <div className={styles.container}>
               <Grid>
-                  <Grid.Col span={4} >
+                  <Grid.Col lg={4} sm={12}>
                     <div className={styles.LogoLink}>
                         <Image  width={500} height={500} src="/logo.png"></Image>
                      </div>
                   </Grid.Col>
-                  <Grid.Col span={8}>
+                  <Grid.Col lg={8} sm={12}>
                     <h3 className={styles.aboutParagraph}>A business will visit our platform to browse and select a climate fund that aligns with their charitable goals. Once selected, they estimate the cost of their campaign and deposit cUSD. Our platform generates a JavaScript snippet, similar to a Google analytics link, that they can embed in their site. When a user visits the business's site, a small transaction is recorded on the L2 and the user receives a notification that a donation was given in their name. At the end of the campaign, the climate fund owner can withdraw the donations.</h3>
                   </Grid.Col>
               </Grid>
@@ -44,19 +44,19 @@ const Home: NextPage = () => {
       <section>
           <div className={styles.container}>
               <Grid>
-                <Grid.Col span={4}>
+                <Grid.Col lg={4} sm={12}>
                 <div className={styles.textSection}>
                     <Image src="/marketing.png" height={300} width={200}></Image>
                     <h4 className={styles.paragraphs}>Quick, easy setup for marketing teams.</h4>
                 </div>
                 </Grid.Col>
-                <Grid.Col span={4}>
+                <Grid.Col lg={4} sm={12}>
                 <div className={styles.textSection}>
                     <Image src="/notification.png" height={300} width={300}></Image>
                     <h4 className={styles.paragraphs}>End user donation notifications help companies build a sustainable image the moment a new visitor arrives.</h4>
                 </div>
                 </Grid.Col>
-                <Grid.Col span={4}>
+                <Grid.Col lg={4} sm={12}>
                 <div className={styles.textSection}>
                     <Image src="/watering.png" height={300} width={300}></Image>
                     <h4 className={styles.paragraphs}>Donating per page view allows teams to easily calculate and offset donation expenses based on their existing Pay-Per-Click and Cost-Per-Visit calculations.</h4>

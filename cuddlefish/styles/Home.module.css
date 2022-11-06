@@ -326,6 +326,7 @@ background: linear-gradient(to bottom right, #BAEAFF, #33308C);
   width:"50px"
 }
 
+
 @media (max-width: 600px) {
 
   .descriptionAbout{
@@ -337,6 +338,8 @@ background: linear-gradient(to bottom right, #BAEAFF, #33308C);
     flex-direction: column;
     margin-left:7%;
   }
+
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -352,6 +355,22 @@ background: linear-gradient(to bottom right, #BAEAFF, #33308C);
 
 
 @media only screen and (max-width: 700px) {
+  .Titleheading{
+    font-size:1em;
+    width:90%;
+  }
+
+  .titleDivHeading{
+    font-size:4em;
+  }
+
+  .aboutParagraph{
+    font-size:1.0em;
+    width: 90%;
+    letter-spacing: 0.05em;
+    margin-top:0;
+  }
+
   .margintops{
     margin-top:55%;
   }
